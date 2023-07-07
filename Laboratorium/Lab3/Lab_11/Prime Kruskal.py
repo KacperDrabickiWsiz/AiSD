@@ -1,4 +1,4 @@
-#EDGE 1
+#Algorytm  Kruskala
 def kruskal(graf):
     krawedzie = []
     for u in range(len(graf)):
@@ -14,7 +14,7 @@ def kruskal(graf):
             for wierzcholek in nowy_podzbior:
                 podzbiory[wierzcholek] = nowy_podzbior
     return T
-
+#Algorytm  Prima
 def prim(graf):
     odwiedzone = [False] * len(graf)
     odwiedzone[0] = True
